@@ -6,11 +6,18 @@ html {
 }
 
 #Header {
-    text-align: center;
     width:80%;
     height: 200px;
     background-color: #FE654F;
     margin: 0 auto;
+    position: relative;
+}
+
+#Header h1 {
+    font-family: 'Oswald', 'Roboto', 'Quattrocento', serif;
+    position: absolute;
+    top:20%;
+    left:45%;
 }
 
 #NavBar {
@@ -57,9 +64,26 @@ a:active {
 }
 
 #Main {
-    height: 600px;
+    height: fit-content;
     width: 69%;
     margin-top: 1%;
     background-color: #FE9F75;
     float: left;
+}
+
+img {
+    border: 5px solid grey;
+}
+
+#Header img {
+    float: left;
+    margin-left: 6%;
+    margin-top: .75%;
+}
+
+#BodyText {
+    margin: 5%;
+    margin-left: 60%;
+    line-height: 140%;
+    float: right;
 }
