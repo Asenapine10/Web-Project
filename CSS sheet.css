@@ -28,7 +28,7 @@ html {
     margin-left: 10%;
     margin-right: 1%;
     margin-top: 1%;
-    position: relative;
+    position: fixed;
     float: left;
 
 }
@@ -67,6 +67,7 @@ a:active {
     height: fit-content;
     width: 69%;
     margin-top: 1%;
+    margin-left: 21%;
     background-color: #FE9F75;
     float: left;
 }
