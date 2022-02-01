@@ -73,8 +73,10 @@ a:active {
 }
 
 #Main img {
-    margin-left: 6.5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2%;
+    display: block;
 }
 
 img {
