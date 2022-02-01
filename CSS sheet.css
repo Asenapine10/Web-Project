@@ -17,7 +17,7 @@ html {
     font-family: 'Oswald', 'Roboto', 'Quattrocento', serif;
     position: absolute;
     top:20%;
-    left:45%;
+    left:50%;
 }
 
 #NavBar {
@@ -57,7 +57,7 @@ a:active {
 }
 
 #NavBar a {
-    margin: 40% 20%;
+    margin: 40% 5%;
     position: relative;
     display: block;
     font-size: large;
@@ -72,6 +72,11 @@ a:active {
     float: left;
 }
 
+#Main img {
+    margin-left: 6.5%;
+    margin-top: 2%;
+}
+
 img {
     border: 5px solid grey;
 }
@@ -83,8 +88,8 @@ img {
 }
 
 #BodyText {
-    margin: 5%;
-    margin-left: 60%;
+    margin: 2%;
+    margin-left: 30%;
+    margin-right:30%;
     line-height: 140%;
-    float: right;
 }
