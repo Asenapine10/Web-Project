@@ -22,7 +22,7 @@ html {
 
 #NavBar {
     width: 10%;
-    height: 600px;
+    height: fit-content;
     background-color: #FE654F;
     margin: 0;
     margin-left: 10%;
