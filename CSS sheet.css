@@ -19,20 +19,24 @@ body {
     background-color: #FE654F;
     margin: 0 auto;
     position: relative;
+    border: 5px solid black;
 }
 
 
 #Header h1 {
     font-family: 'Oswald', 'Roboto', 'Quattrocento', serif;
     position: absolute;
-    top:20%;
-    left:50%;
+    left:40%;
+    font-size: 86px;
 }
 
 #Header img {
     float: left;
     margin-left: 6%;
-    margin-top: .75%;
+    width: 194px;
+    height: 194px;
+    border-radius: 0px;
+    border: 3px solid black;
 }
 
 footer {
@@ -43,7 +47,7 @@ footer {
     margin-top: -100px;
     background: grey;
     clear: both;
-    text-align: center;
+    text-align: right;
 
 }
 
@@ -57,6 +61,7 @@ footer {
     margin-top: 1%;
     position: fixed;
     float: left;
+    border: 5px solid black;
 
 }
 
@@ -97,6 +102,7 @@ a:active {
     margin-left: 21%;
     background-color: #FE9F75;
     float: left;
+    border: 5px solid black;
 }
 
 #Main img {
@@ -107,7 +113,8 @@ a:active {
 }
 
 img {
-    border: 5px solid grey;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 
